@@ -242,3 +242,12 @@ $RECYCLE.BIN/
 */build/*
 
 # End of https://www.gitignore.io/api/osx,linux,python,windows,pycharm,visualstudiocode
+# Node.js dependencies
+aws-school-project/ecs-demo-app/node_modules/
+
+# AWS SAM build artifacts
+aws-school-project/.aws-sam/
+
+# Python bytecode
+**/__pycache__/
+*.py[cod]
